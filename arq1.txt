@@ -1,0 +1,9 @@
+L2: x = 0
+y = 1
+if x == 0 goto L2
+if y == 0 goto L2
+goto L1
+L1: z = 1
+goto L0
+z = 0
+L0:
